@@ -25,7 +25,7 @@ class ShoppingCartMain
 	{
 		String name = args[0];
 		int quantity = Integer.parseInt(args[1]);
-		ShoppingCart item[] = new ShoppingCart(name, quantity);
+		ShoppingCart item = new ShoppingCart(name, quantity);
 		try
 		{
 			item.addItem(name,quantity);
