@@ -11,7 +11,7 @@ class RockPaperScissorsGame
 		System.out.println("Enter 1 for choosing Rock!");
 		System.out.println("Enter 2 for choosing Paper!");
 		System.out.println("Enter 3 for choosing Scissors!");
-		System.out.println("Enter you move:");
+		System.out.println("Enter your move:");
 		int humanMove = sc.nextInt();
 
 		if(humanMove>3)
